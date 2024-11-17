@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd; /* Light background color */
+    margin: 0;
+    padding: 0;
+  }
+  .contact{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #afb4bd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    border-color: #633dce;
+    outline: none;
+  }
+  
+  textarea.input-field {
+    resize: none;
+    height: 100px;
+  }
+  
+  .submit-btn {
+    background-color: #633dce;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #202224;
+  }
+ 
+ 
+  

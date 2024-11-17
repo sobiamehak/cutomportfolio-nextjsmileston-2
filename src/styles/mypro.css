@@ -1,0 +1,15 @@
+
+
+
+.mypro{
+    display: flex;
+    color: #633dce;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+   font-style: italic;
+   text-decoration: underline #633dce;
+
+}
